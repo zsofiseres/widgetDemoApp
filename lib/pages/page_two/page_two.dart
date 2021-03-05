@@ -49,7 +49,7 @@ class _PageTwoState extends State<PageTwo> {
                         duration: Duration(milliseconds: 150),
                         child: viewModel.isLoading
                             ? CircularProgressIndicator()
-                            : RaisedButton(
+                            : ElevatedButton(
                                 onPressed: () async {
                                   await viewModel.symulateNetworkRequest();
                                   if (_formKey.currentState.validate()) {

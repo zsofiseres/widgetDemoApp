@@ -9,7 +9,7 @@ class Button extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RaisedButton(
+    return ElevatedButton(
       onPressed: () {
         Navigator.of(context)
             .push(MaterialPageRoute(builder: (_) => destination));
