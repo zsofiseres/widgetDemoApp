@@ -3,7 +3,7 @@ import 'package:flutter_widgets/button.dart';
 import 'package:flutter_widgets/pages/page_eight.dart';
 import 'package:flutter_widgets/pages/page_five.dart';
 import 'package:flutter_widgets/pages/page_four.dart';
-import 'package:flutter_widgets/pages/page_nine.dart';
+import 'package:flutter_widgets/pages/page_nine/page_nine.dart';
 import 'package:flutter_widgets/pages/page_one.dart';
 import 'package:flutter_widgets/pages/page_seven.dart';
 import 'package:flutter_widgets/pages/page_six.dart';

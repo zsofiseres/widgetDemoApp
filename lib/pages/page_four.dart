@@ -15,7 +15,7 @@ class _PageFourState extends State<PageFour> {
     "images/felhokarcolo.jpg",
   ];
 
-  var currentPage = "images/kutya.jpg";
+  var currentPage = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +30,7 @@ class _PageFourState extends State<PageFour> {
                 child: PageView(
                     onPageChanged: (pageNumber) {
                       setState(() {
-                        currentPage = images[pageNumber];
+                        currentPage = pageNumber;
                       });
                     },
                     controller: _pageController,
@@ -47,7 +47,7 @@ class _PageFourState extends State<PageFour> {
               Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: images.map((imageName) {
-                    final isCurrent = currentPage == imageName;
+                    final isCurrent = currentPage == images.indexOf(imageName);
                     return Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: AnimatedContainer(

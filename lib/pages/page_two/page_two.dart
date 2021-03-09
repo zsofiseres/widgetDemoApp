@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/pages/page_one.dart';
-import 'package:flutter_widgets/pages/page_two/view_model.dart';
+import 'package:flutter_widgets/pages/page_two/page_two_view_model.dart';
 import 'package:provider/provider.dart';
 
 class PageTwo extends StatefulWidget {
